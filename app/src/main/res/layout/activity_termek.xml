@@ -32,8 +32,20 @@
         android:hint="Mértékegység" />
 
     <Button
-        android:id="@+id/hozzaadasButton"
+        android:id="@+id/modositasButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hozzáadás" />
+        android:text="Módosítás" />
+
+    <Button
+        android:id="@+id/torlesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Törlés" />
+
+    <Button
+        android:id="@+id/megseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mégse" />
 </LinearLayout>
